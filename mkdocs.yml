@@ -1,0 +1,16 @@
+site_name: AcademicLabs developer hub 
+nav: 
+    - Home: index.md
+    - API reference: 
+        - search:
+            - GET /v1/search_results: api-reference/search/search_results.md
+
+theme:
+    name: material
+    logo: a-white.svg
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - curl
+        - json
