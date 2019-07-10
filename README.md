@@ -8,16 +8,15 @@
 
 ## Development
 ```
-$ python --version
-Python 2.7.2
-$ pip --version
-pip 1.5.2
-
-pip install mkdocs
-pip install [mkdocs-gitbook](https://lramage.gitlab.io/mkdocs-gitbook-theme/)
+https://squidfunk.github.io/mkdocs-material/
 ```
 
 ## Development
 ```
 mkdocs serve
+```
+
+## Deploy
+```
+mkdocs build
 ```
