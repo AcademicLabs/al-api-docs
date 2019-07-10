@@ -2,7 +2,7 @@
 site_name: 'Academiclabs'
 site_description: 'An API for AcademicLabs'
 site_author: 'AcademicLabs'
-site_url: 'https://docs.academiclabs.co/'
+site_url: 'https://apidocs.academiclabs.co/'
 
 # Repository
 # repo_name: 'academiclabs/al-api-docs'

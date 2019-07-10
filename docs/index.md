@@ -1,13 +1,16 @@
-title: Authentication
+title: Authentication | Academiclabs
 title_string: Authentication
 
 # Getting an access token
 
 You want to integrate AcademicLabs into your platform, awesome!
-First step is getting your access token. Todo that send an email to <a href="mailto:sales@academiclabs.co" target="_blank">sales@academiclabs.co</a>. We will contact you as soon as possible.
+
+--- 
+
+First step is getting your access token. To do that send an email to <a href="mailto:sales@academiclabs.co" target="_blank">sales@academiclabs.co</a>. We will contact you as soon as possible.
 
 !!! info 
-    It is also stronly adviced creating an account on <a href="app.academiclabs.co" target="_blank">app.academiclabs.co</a> before contacting us.
+    It is also strongly advised creating an account on <a href="app.academiclabs.co" target="_blank">app.academiclabs.co</a> before contacting us.
 
 
 ## API Key

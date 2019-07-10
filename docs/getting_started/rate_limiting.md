@@ -1,4 +1,4 @@
-title: Rate Limiting
+title: Rate Limiting | Academiclabs
 title_string: Rate Limiting
 
 # Rate limiting

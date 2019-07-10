@@ -1,4 +1,4 @@
-title: Responses
+title: Responses | Academiclabs
 title_string: Responses
 
 # Responses

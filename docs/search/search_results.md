@@ -1,4 +1,4 @@
-title: GET Search Results
+title: GET Search Results | Academiclabs
 title_string: <span class="t-get">GET</span> Search Results
 
 # <span class="t-get">GET</span>  /search_results

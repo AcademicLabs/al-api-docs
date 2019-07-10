@@ -1,4 +1,4 @@
-title: Requests
+title: Requests | Academiclabs
 title_string: Requests
 
 # Requests
