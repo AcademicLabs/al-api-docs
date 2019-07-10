@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>How to use the AcademicLabs v1 API - AcademicLabs</title>
+<title>GET /v1/search_results - AcademicLabs</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="generator" content="mkdocs-1.0.4, mkdocs-gitbook-1.0.7">
 
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
 <meta name="HandheldFriendly" content="true"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta rel="next" href="" />
-<link href="./css/style.min.css" rel="stylesheet"> 
+<link href="../../css/style.min.css" rel="stylesheet"> 
 </head>
 
 <body>
@@ -27,15 +27,15 @@
 <nav role="navigation">
 <ul class="summary">
 <li>
-<a href="." target="_blank" class="custom-link">AcademicLabs</a>
+<a href="../.." target="_blank" class="custom-link">AcademicLabs</a>
 </li>
 <li class="divider"></li>
-<li class="chapter active" data-path="">
-<a href=".">How to use the AcademicLabs v1 API</a>
+<li class="chapter" data-path="">
+<a href="../..">How to use the AcademicLabs v1 API</a>
 <li class="header">Search</li>
 
 <li>
-<a href="search/search_results/" class="">GET /v1/search_results</a>
+<a href="./" class="active">GET /v1/search_results</a>
 </li>
 
 <li class="divider"></li>
@@ -76,8 +76,48 @@ Theme by GitBook
 
 
 
-<h1 id="academiclabs-developer-hub">AcademicLabs developer hub</h1>
-<p>Welcome to the AcademicLabs developer hub.</p>
+<h1 id="get-v1search_results">GET /v1/search_results</h1>
+<p>The search results API returns the number of results found for the given keyword parameter.</p>
+<h2 id="authentication">Authentication</h2>
+<p>This is a public endpoint, hence no authentication is required.</p>
+<h2 id="request-parameters">Request parameters</h2>
+<pre><code>keyword string
+</code></pre>
+
+<h2 id="example-request">Example request</h2>
+<pre><code class="curl">curl https://api.academiclabs.co/v1/search_results?keyword=aging
+</code></pre>
+
+<h2 id="example-status-200-response">Example status 200 response</h2>
+<pre><code class="json">{
+  &quot;units&quot;: {
+    &quot;results&quot;: 10,
+    &quot;link&quot;: &quot;https://app.academiclabs.co/search/units?keyword=aging&quot;
+  },
+  &quot;people&quot;: {
+    &quot;results&quot;: 3,
+    &quot;link&quot;: &quot;https://app.academiclabs.co/search/people?keyword=aging&quot;
+  },
+  &quot;research_topics&quot;: {
+    &quot;results&quot;: 100,
+    &quot;link&quot;: &quot;https://app.academiclabs.co/search/research_topics?keyword=aging&quot;
+  },
+  &quot;publications&quot;: {
+    &quot;results&quot;: 10000,
+    &quot;link&quot;: &quot;https://app.academiclabs.co/search/publications?keyword=aging&quot;
+  },
+  &quot;projects&quot;: {
+    &quot;results&quot;: 999,
+    &quot;link&quot;: &quot;https://app.academiclabs.co/search/projects?keyword=aging&quot;
+  }
+}
+</code></pre>
+
+<h2 id="example-status-400-response">Example status 400 response</h2>
+<pre><code class="json">{
+   &quot;error_msg&quot;: &quot;failed to retrieve search results for keyword aging&quot; 
+}
+</code></pre>
 
 
 </section>
@@ -103,9 +143,9 @@ Theme by GitBook
 </div> <!-- end of body-inner -->
 
 </div> <!-- end of book-body -->
-<script src="./js/main.js"></script>
-<script src="search/main.js"></script>
-<script src="./js/gitbook.min.js"></script>
-<script src="./js/theme.min.js"></script>
+<script src="../../js/main.js"></script>
+<script src="../main.js"></script>
+<script src="../../js/gitbook.min.js"></script>
+<script src="../../js/theme.min.js"></script>
 </body>
 </html>

@@ -1,16 +1,57 @@
-site_name: AcademicLabs developer hub 
-nav: 
-    - Home: index.md
-    - API reference: 
-        - search:
-            - GET /v1/search_results: api-reference/search/search_results.md
+# Project information
+site_name: 'Academiclabs'
+site_description: 'An API for AcademicLabs'
+site_author: 'AcademicLabs'
+site_url: 'https://docs.academiclabs.co/'
 
+# Repository
+# repo_name: 'academiclabs/al-api-docs'
+# repo_url: 'https://github.com/academiclabs/al-api-docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - AcademicLabs'
+
+# Configuration
 theme:
     name: material
-    logo: a-white.svg
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - rust
-        - curl
-        - json
+    language: 'en'
+    logo: assets/img/a-white.svg
+    favicon: 'assets/img/favicon.png'
+    custom_dir: custom_theme
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+
+# Navigation
+nav: 
+    - Getting Started:
+        - Authentication: index.md
+        - Request: getting_started/request.md
+        - Response: getting_started/response.md
+        - Rate Limiting: getting_started/rate_limiting.md
+    - Search:
+        - GET Search Results: search/search_results.md
+
+
+# Customization
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/academiclabsco'
+    - type: 'linkedin'
+      link: 'https://nl.linkedin.com/company/academiclabs'
+
+extra_css:
+    - 'stylesheets/extra.css'
+
+extra_javascript:
+    - 'javascripts/extra.js'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - meta
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
