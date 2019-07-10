@@ -14,5 +14,5 @@ mkdocs serve
 
 ## Deploy
 ```
-mkdocs build
+mkdocs gh-deploy
 ```
