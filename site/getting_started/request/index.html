@@ -13,7 +13,7 @@
         <meta name="description" content="An API for AcademicLabs">
       
       
-        <link rel="canonical" href="https://docs.academiclabs.co/">
+        <link rel="canonical" href="https://docs.academiclabs.co/getting_started/request/">
       
       
         <meta name="author" content="AcademicLabs">
@@ -37,29 +37,29 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/img/favicon.png">
+      <link rel="shortcut icon" href="../../assets/img/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
     
     
       
-        <title>Authentication</title>
+        <title>Requests</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
       
       
     
     
-      <script src="assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
     
     
 	<link rel="stylesheet" href="https://use.typekit.net/quy7vup.css">
 
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -79,7 +79,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#getting-an-access-token" tabindex="1" class="md-skip">
+      <a href="#requests" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -90,7 +90,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="https://docs.academiclabs.co/" title="Academiclabs" class="md-header-nav__button md-logo">
           
-            <img src="assets/img/a-white.svg" width="24" height="24">
+            <img src="../../assets/img/a-white.svg" width="24" height="24">
           
         </a>
       </div>
@@ -105,7 +105,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Authentication
+                Requests
               
             </span>
           
@@ -162,7 +162,7 @@
     <a href="https://docs.academiclabs.co/"
         title="Academiclabs" class="md-nav__button md-logo">
       
-        <img src="assets/img/a-white.svg" width="48" height="48" />
+        <img src="../../assets/img/a-white.svg" width="48" height="48" />
       
     </a>
     Academiclabs
@@ -212,6 +212,22 @@
           <!-- Determine class according to level -->
 
 
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../.." title="Authentication"
+        class="md-nav__link">
+      Authentication
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
   
 
 
@@ -232,12 +248,12 @@
     <!-- Render table of contents, if not empty -->
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Authentication
+        Request
       </label>
     
-    <a href="." title="Authentication"
+    <a href="./" title="Request"
         class="md-nav__link md-nav__link--active">
-      Authentication
+      Requests
     </a>
 
     <!-- Show table of contents -->
@@ -253,29 +269,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#api-key" title="API Key" class="md-nav__link">
-    API Key
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#authorization-header" title="Authorization Header" class="md-nav__link">
-    Authorization Header
+  <a href="#environments" title="Environments" class="md-nav__link">
+    Environments
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
+  <a href="#sandbox-mode" title="Sandbox mode" class="md-nav__link">
+    Sandbox mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#production" title="Production" class="md-nav__link">
+    Production
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http-verbs" title="HTTP Verbs" class="md-nav__link">
+    HTTP Verbs
+  </a>
   
 </li>
       
@@ -301,23 +324,7 @@
 <!-- Main navigation item with nested items -->
 
   <li class="md-nav__item">
-    <a href="getting_started/request/" title="Request"
-        class="md-nav__link">
-      Requests
-    </a>
-  </li>
-
-        
-          
-          
-          <!-- Determine class according to level -->
-
-
-
-<!-- Main navigation item with nested items -->
-
-  <li class="md-nav__item">
-    <a href="getting_started/response/" title="Response"
+    <a href="../response/" title="Response"
         class="md-nav__link">
       Responses
     </a>
@@ -333,7 +340,7 @@
 <!-- Main navigation item with nested items -->
 
   <li class="md-nav__item">
-    <a href="getting_started/rate_limiting/" title="Rate Limiting"
+    <a href="../rate_limiting/" title="Rate Limiting"
         class="md-nav__link">
       Rate Limiting
     </a>
@@ -387,7 +394,7 @@
 <!-- Main navigation item with nested items -->
 
   <li class="md-nav__item">
-    <a href="search/search_results/" title="GET Search Results"
+    <a href="../../search/search_results/" title="GET Search Results"
         class="md-nav__link">
       <span class="t-get">GET</span> Search Results
     </a>
@@ -422,29 +429,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#api-key" title="API Key" class="md-nav__link">
-    API Key
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#authorization-header" title="Authorization Header" class="md-nav__link">
-    Authorization Header
+  <a href="#environments" title="Environments" class="md-nav__link">
+    Environments
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
+  <a href="#sandbox-mode" title="Sandbox mode" class="md-nav__link">
+    Sandbox mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#production" title="Production" class="md-nav__link">
+    Production
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http-verbs" title="HTTP Verbs" class="md-nav__link">
+    HTTP Verbs
+  </a>
   
 </li>
       
@@ -465,25 +479,58 @@
               
                 
                 
-                <h1 id="getting-an-access-token">Getting an access token<a class="headerlink" href="#getting-an-access-token" title="Permanent link">&para;</a></h1>
-<p>You want to integrate AcademicLabs into your platform, awesome!
-First step is getting your access token. Todo that send an email to <a href="mailto:sales@academiclabs.co" target="_blank">sales@academiclabs.co</a>. We will contact you as soon as possible.</p>
+                <h1 id="requests">Requests<a class="headerlink" href="#requests" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>It is also stronly adviced creating an account on <a href="app.academiclabs.co" target="_blank">app.academiclabs.co</a> before contacting us.</p>
+<p>All requests must be made over HTTPS. The API does not support HTTP.</p>
 </div>
-<h2 id="api-key">API Key<a class="headerlink" href="#api-key" title="Permanent link">&para;</a></h2>
-<p>AcademicLabs’s Web API v1 supports the use of API Keys. API Keys allow you to use another method of authentication separate from your account username and password. API Keys add an additional layer of security for your account and can be assigned specific permissions to limit which areas of your account they may be used to access. You will be provided by AcademicLabs with an API-key. </p>
-<h2 id="authorization-header">Authorization Header<a class="headerlink" href="#authorization-header" title="Permanent link">&para;</a></h2>
-<p>To use keys, you must set a plain text header named <code>Authorization</code> with the contents of the header being <code>Bearer XXX</code> where XXX is your API-key.</p>
-<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>    GET https://api.academiclabs.co/v1/ HTTP/1.1
-    Authorization: Bearer Your.API.Key-HERE
+<h2 id="environments">Environments<a class="headerlink" href="#environments" title="Permanent link">&para;</a></h2>
+<p>The host for Web API v1 requests is always <code>https://{{ env }}.academiclabs.co/v1/</code>. In our documentation we will refer to the variable <code>{{ env }}</code>. Once you start with implementing AcademicLabs you will receive first our Sandbox Mode API-Key. You only need to replace <code>{{ env }}</code> with the correct environment you want to connect with.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You will only receive your production API Key once AcademicLabs has confirmed that your integration is fully operational.</p>
+</div>
+<h3 id="sandbox-mode">Sandbox mode<a class="headerlink" href="#sandbox-mode" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>https://staging-api.academiclabs.co/v1/
 </pre></div>
 
 
-<div class="codehilite"><pre><span></span>    curl -X &quot;GET&quot; &quot;https://api.academiclabs.co/v1/&quot; -H &quot;Authorization: Bearer Your.API.Key-HERE&quot; -H &quot;Content-Type: application/json&quot;
+<h3 id="production">Production<a class="headerlink" href="#production" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>https://api.academiclabs.co/v1/
 </pre></div>
+
+
+<h2 id="http-verbs">HTTP Verbs<a class="headerlink" href="#http-verbs" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Verb</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>Retrieve a resource or group of resources</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Create a new resource</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>Update an existing resource</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Delete an existing resource</td>
+</tr>
+<tr>
+<td>OPTIONS</td>
+<td>View allowed verbs against a specific resource</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -504,14 +551,28 @@ First step is getting your access token. Todo that send an email to <a href="mai
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="../.." title="Authentication" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Authentication
+              </span>
+            </div>
+          </a>
         
-          <a href="getting_started/request/" title="Request" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../response/" title="Response" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Request
+                Response
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -538,7 +599,7 @@ First step is getting your access token. Todo that send an email to <a href="mai
       </div>
       
   <div class="md-footer-social">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
       <a href="https://twitter.com/academiclabsco" class="md-footer-social__link fa fa-twitter"></a>
     
@@ -552,11 +613,11 @@ First step is getting your access token. Todo that send an email to <a href="mai
       
     </div>
     
-      <script src="assets/javascripts/application.245445c6.js"></script>
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="javascripts/extra.js"></script>
+        <script src="../../javascripts/extra.js"></script>
       
     
   </body>
