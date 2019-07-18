@@ -7,7 +7,7 @@ This endpoint allows you to create a researcher.
 If your API key is linked to a community on the platform, the researcher will be added automatically to that community.
 
 ```
-https://api.academiclabs.co/v1/researchers
+https://{{ env }}.academiclabs.co/api/v1/researchers
 ```
 
 ---
@@ -41,8 +41,9 @@ https://api.academiclabs.co/v1/researchers
 ## Example
 
 ```curl
-curl --location --request POST "{{url}}/api/v1/researchers" \
+curl --location --request POST "https://sandbox.academiclabs.co/api/v1/researchers" \
   --header "Content-Type: application/json" \
+  --header "Authorization: Bearer Your.API.Key-HERE" \
   --data "{
 	\"researcher\": {
 		\"first_name\": \"Frodo\",

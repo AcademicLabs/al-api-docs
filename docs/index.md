@@ -23,12 +23,12 @@ To use keys, you must set a plain text header named `Authorization` with the con
 ### Example
 
 ```
-	GET https://api.academiclabs.co/v1/ HTTP/1.1
+	GET https://sandbox.academiclabs.co/api/v1/ HTTP/1.1
 	Authorization: Bearer Your.API.Key-HERE
 ```
 
 ```curl
-	curl -X "GET" "https://api.academiclabs.co/v1/" -H "Authorization: Bearer Your.API.Key-HERE" -H "Content-Type: application/json"
+	curl -X "GET" "https://sandbox.academiclabs.co/api/v1/" -H "Authorization: Bearer Your.API.Key-HERE" -H "Content-Type: application/json"
 ```
 
 

@@ -8,7 +8,8 @@ title_string: Requests
 
 ## Environments
 
-The host for Web API v1 requests is always `https://{{ env }}.academiclabs.co/v1/`. In our documentation we will refer to the variable `{{ env }}`. Once you start with implementing AcademicLabs you will receive first our Sandbox Mode API-Key. You only need to replace `{{ env }}` with the correct environment you want to connect with.
+The host for Web API v1 requests is always `https://{{ env }}.academiclabs.co/api/v1/`. In our documentation we will refer to the variable `{{ env }}`.  
+Once you start with implementing AcademicLabs you will receive first our Sandbox Mode API-Key. You only need to replace `{{ env }}` with the correct environment you want to connect with.
 
 !!! warning 
     You will only receive your production API Key once AcademicLabs has confirmed that your integration is fully operational.
@@ -16,13 +17,13 @@ The host for Web API v1 requests is always `https://{{ env }}.academiclabs.co/v1
 ### Sandbox mode
 
 ```
-https://staging-api.academiclabs.co/v1/
+https://sandbox.academiclabs.co/api/v1/
 
 ```
 
 ### Production
 ```
-https://api.academiclabs.co/v1/
+https://api.academiclabs.co/api/v1/
 
 ```
 

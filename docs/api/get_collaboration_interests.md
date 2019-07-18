@@ -1,12 +1,12 @@
-title: GET /collaboration_interests | Academiclabs
+title: GET Collaboration Interests | Academiclabs
 title_string: <span class="t-get">GET</span> Collaboration Interests
 
 # <span class="t-get">GET</span>  /collaboration_interests
 
-This endpoint allows you to retrieve a list of collaboration_interests
+This endpoint allows you to retrieve a list of collaboration interests
 
 ```
-https://api.academiclabs.co/v1/collaboration_interests
+https://{{ env }}.academiclabs.co/api/v1/collaboration_interests
 ```
 
 ---
@@ -21,9 +21,9 @@ https://api.academiclabs.co/v1/collaboration_interests
 ## Example
 
 ```curl
-curl --location --request GET "{{url}}/api/v1/collaboration_interests" \
+curl --location --request GET "https://sandbox.academiclabs.co/api/v1/collaboration_interests" \
   --header "Content-Type: application/json" \
-  --header "Authorization: Bearer YOUR_API_KEY"
+  --header "Authorization: Bearer Your.API.Key-HERE"
 ```
 
 ## Responses

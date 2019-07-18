@@ -1,4 +1,4 @@
-title: GET /research_interests | Academiclabs
+title: GET Research Interests | Academiclabs
 title_string: <span class="t-get">GET</span> Research Interests
 
 # <span class="t-get">GET</span>  /research_interests
@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Research Interests
 This endpoint allows you to retrieve a list of research interests for a given keyword
 
 ```
-https://api.academiclabs.co/v1/research_interests
+https://{{ env }}.academiclabs.co/api/v1/research_interests
 ```
 
 ---
@@ -29,9 +29,9 @@ https://api.academiclabs.co/v1/research_interests
 ## Example
 
 ```curl
-curl --location --request GET "{{url}}/api/v1/research_interests?q=bel" \
+curl --location --request GET "https://sandbox.academiclabs.co/api/v1/research_interests?q=bel" \
   --header "Content-Type: application/json" \
-  --header "Authorization: Bearer YOUR_API_KEY"
+  --header "Authorization: Bearer Your.API.Key-HERE"
 ```
 
 ## Responses

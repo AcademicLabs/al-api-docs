@@ -1,4 +1,4 @@
-title: GET /countries | Academiclabs
+title: GET Countries | Academiclabs
 title_string: <span class="t-get">GET</span> Countries
 
 # <span class="t-get">GET</span>  /countries
@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Countries
 This endpoint allows you to retrieve a list of countries for a given keyword
 
 ```
-https://api.academiclabs.co/v1/countries
+https://{{ env }}.academiclabs.co/api/v1/countries
 ```
 
 ---
@@ -29,9 +29,9 @@ https://api.academiclabs.co/v1/countries
 ## Example
 
 ```curl
-curl --location --request GET "{{url}}/api/v1/countries?q=bel" \
+curl --location --request GET "https://sandbox.academiclabs.co/api/v1/countries?q=bel" \
   --header "Content-Type: application/json" \
-  --header "Authorization: Bearer YOUR_API_KEY"
+  --header "Authorization: Bearer Your.API.Key-HERE"
 ```
 
 ## Responses

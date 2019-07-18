@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Search Results
 This endpoint allows you to retrieve counts and a link per category for a given keyword query.
 
 ```
-https://public.academiclabs.co/api/v1/search_results?keyword=aging
+https://{{ env }}.academiclabs.co/api/v1/search_results?keyword=aging
 ```
 
 ---
@@ -31,7 +31,7 @@ https://public.academiclabs.co/api/v1/search_results?keyword=aging
 ## Example
 
 ```curl
-curl --location --request GET "https://api-production.academiclabs.co/v1/search_results?keyword=aging" -H "Content-Type: application/json"
+curl --location --request GET "https://sandbox.academiclabs.co/api/v1/search_results?keyword=aging" -H "Content-Type: application/json"
 ```
 
 ## Responses
