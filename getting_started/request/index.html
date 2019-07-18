@@ -372,13 +372,13 @@
 
     <!-- Expand active pages -->
     <label class="md-nav__link" for="nav-2">
-      Search
+      API
     </label>
 	
     <nav class="md-nav" data-md-component="collapsible"
         data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        Search
+        API
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
 
@@ -394,7 +394,103 @@
 <!-- Main navigation item with nested items -->
 
   <li class="md-nav__item">
-    <a href="../../search/search_results/" title="GET Search Results"
+    <a href="../../api/get_collaboration_interests/" title="GET Collaboration Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Collaboration Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/get_countries/" title="GET Countries"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Countries
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/get_function_titles/" title="GET Function Titles"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Function Titles
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/get_genders/" title="GET Genders"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Genders
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/get_research_interests/" title="GET Research Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Research Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/create_researchers/" title="POST Create Researchers"
+        class="md-nav__link">
+      <span class="t-post">POST</span> Create Researcher
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../../api/get_search_results/" title="GET Search Results"
         class="md-nav__link">
       <span class="t-get">GET</span> Search Results
     </a>
@@ -485,18 +581,19 @@
 <p>All requests must be made over HTTPS. The API does not support HTTP.</p>
 </div>
 <h2 id="environments">Environments<a class="headerlink" href="#environments" title="Permanent link">&para;</a></h2>
-<p>The host for Web API v1 requests is always <code>https://{{ env }}.academiclabs.co/v1/</code>. In our documentation we will refer to the variable <code>{{ env }}</code>. Once you start with implementing AcademicLabs you will receive first our Sandbox Mode API-Key. You only need to replace <code>{{ env }}</code> with the correct environment you want to connect with.</p>
+<p>The host for Web API v1 requests is always <code>https://{{ env }}.academiclabs.co/api/v1/</code>. In our documentation we will refer to the variable <code>{{ env }}</code>.<br />
+Once you start with implementing AcademicLabs you will receive first our Sandbox Mode API-Key. You only need to replace <code>{{ env }}</code> with the correct environment you want to connect with.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>You will only receive your production API Key once AcademicLabs has confirmed that your integration is fully operational.</p>
 </div>
 <h3 id="sandbox-mode">Sandbox mode<a class="headerlink" href="#sandbox-mode" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>https://staging-api.academiclabs.co/v1/
+<div class="codehilite"><pre><span></span>https://sandbox.academiclabs.co/api/v1/
 </pre></div>
 
 
 <h3 id="production">Production<a class="headerlink" href="#production" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>https://api.academiclabs.co/v1/
+<div class="codehilite"><pre><span></span>https://api.academiclabs.co/api/v1/
 </pre></div>
 
 

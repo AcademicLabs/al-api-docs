@@ -365,13 +365,13 @@
 
     <!-- Expand active pages -->
     <label class="md-nav__link" for="nav-2">
-      Search
+      API
     </label>
 	
     <nav class="md-nav" data-md-component="collapsible"
         data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        Search
+        API
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
 
@@ -387,7 +387,103 @@
 <!-- Main navigation item with nested items -->
 
   <li class="md-nav__item">
-    <a href="search/search_results/" title="GET Search Results"
+    <a href="api/get_collaboration_interests/" title="GET Collaboration Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Collaboration Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/get_countries/" title="GET Countries"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Countries
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/get_function_titles/" title="GET Function Titles"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Function Titles
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/get_genders/" title="GET Genders"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Genders
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/get_research_interests/" title="GET Research Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Research Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/create_researchers/" title="POST Create Researchers"
+        class="md-nav__link">
+      <span class="t-post">POST</span> Create Researcher
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="api/get_search_results/" title="GET Search Results"
         class="md-nav__link">
       <span class="t-get">GET</span> Search Results
     </a>
@@ -478,12 +574,12 @@
 <h2 id="authorization-header">Authorization Header<a class="headerlink" href="#authorization-header" title="Permanent link">&para;</a></h2>
 <p>To use keys, you must set a plain text header named <code>Authorization</code> with the contents of the header being <code>Bearer XXX</code> where XXX is your API-key.</p>
 <h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>    GET https://api.academiclabs.co/v1/ HTTP/1.1
+<div class="codehilite"><pre><span></span>    GET https://sandbox.academiclabs.co/api/v1/ HTTP/1.1
     Authorization: Bearer Your.API.Key-HERE
 </pre></div>
 
 
-<div class="codehilite"><pre><span></span>    curl -X &quot;GET&quot; &quot;https://api.academiclabs.co/v1/&quot; -H &quot;Authorization: Bearer Your.API.Key-HERE&quot; -H &quot;Content-Type: application/json&quot;
+<div class="codehilite"><pre><span></span>    curl -X &quot;GET&quot; &quot;https://sandbox.academiclabs.co/api/v1/&quot; -H &quot;Authorization: Bearer Your.API.Key-HERE&quot; -H &quot;Content-Type: application/json&quot;
 </pre></div>
                 
                   

@@ -13,7 +13,7 @@
         <meta name="description" content="An API for AcademicLabs">
       
       
-        <link rel="canonical" href="https://apidocs.academiclabs.co/search/search_results/">
+        <link rel="canonical" href="https://apidocs.academiclabs.co/api/get_function_titles/">
       
       
         <meta name="author" content="AcademicLabs">
@@ -42,7 +42,7 @@
     
     
       
-        <title>GET Search Results | Academiclabs</title>
+        <title>GET Function Titles | Academiclabs</title>
       
     
     
@@ -79,7 +79,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#get-search_results" tabindex="1" class="md-skip">
+      <a href="#get-function_titles" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -105,7 +105,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                GET Search Results | Academiclabs
+                GET Function Titles | Academiclabs
               
             </span>
           
@@ -296,18 +296,50 @@
 
     <!-- Expand active pages -->
     <label class="md-nav__link" for="nav-2">
-      Search
+      API
     </label>
 	
     <nav class="md-nav" data-md-component="collapsible"
         data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        Search
+        API
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
 
         <!-- Render nested item list -->
         
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../get_collaboration_interests/" title="GET Collaboration Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Collaboration Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../get_countries/" title="GET Countries"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Countries
+    </a>
+  </li>
+
         
           
           
@@ -334,12 +366,12 @@
     <!-- Render table of contents, if not empty -->
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        GET Search Results
+        GET Function Titles
       </label>
     
-    <a href="./" title="GET Search Results"
+    <a href="./" title="GET Function Titles"
         class="md-nav__link md-nav__link--active">
-      <span class="t-get">GET</span> Search Results
+      <span class="t-get">GET</span> Function Titles
     </a>
 
     <!-- Show table of contents -->
@@ -373,15 +405,15 @@
     Example
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#responses" title="Responses" class="md-nav__link">
     Responses
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#200" title="200" class="md-nav__link">
@@ -413,6 +445,70 @@
   </li>
 
 <!-- Main navigation item -->
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../get_genders/" title="GET Genders"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Genders
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../get_research_interests/" title="GET Research Interests"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Research Interests
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../create_researchers/" title="POST Create Researchers"
+        class="md-nav__link">
+      <span class="t-post">POST</span> Create Researcher
+    </a>
+  </li>
+
+        
+          
+          
+          <!-- Determine class according to level -->
+
+
+
+<!-- Main navigation item with nested items -->
+
+  <li class="md-nav__item">
+    <a href="../get_search_results/" title="GET Search Results"
+        class="md-nav__link">
+      <span class="t-get">GET</span> Search Results
+    </a>
+  </li>
 
         
       </ul>
@@ -461,15 +557,15 @@
     Example
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#responses" title="Responses" class="md-nav__link">
     Responses
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#200" title="200" class="md-nav__link">
@@ -507,9 +603,9 @@
               
                 
                 
-                <h1 id="get-search_results"><span class="t-get">GET</span>  /search_results<a class="headerlink" href="#get-search_results" title="Permanent link">&para;</a></h1>
-<p>This endpoint allows you to retrieve counts and a link per category for a given keyword query.</p>
-<div class="codehilite"><pre><span></span>https://api.academiclabs.co/v1/search_results?keyword=aging
+                <h1 id="get-function_titles"><span class="t-get">GET</span>  /function_titles<a class="headerlink" href="#get-function_titles" title="Permanent link">&para;</a></h1>
+<p>This endpoint allows you to retrieve a list of function titles for a given keyword</p>
+<div class="codehilite"><pre><span></span>https://{{ env }}.academiclabs.co/api/v1/function_titles
 </pre></div>
 
 
@@ -528,15 +624,11 @@
 <tr>
 <td>Authorization</td>
 <td align="center">string</td>
-<td>optional</td>
+<td>required</td>
 <td>Your API_KEY received by AcademicLabs</td>
 </tr>
 </tbody>
 </table>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>This is a public endpoint. Authorization key is not required.</p>
-</div>
 <h2 id="query-string">Query String<a class="headerlink" href="#query-string" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -549,69 +641,59 @@
 </thead>
 <tbody>
 <tr>
-<td>keyword</td>
+<td>q</td>
 <td align="center">string</td>
 <td>required</td>
 <td>A string based value for a given keyword</td>
 </tr>
+<tr>
+<td>limit</td>
+<td align="center">integer</td>
+<td>optional</td>
+<td>Number of results that will be fetched (default: 20)</td>
+</tr>
 </tbody>
 </table>
-<hr />
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>curl --location --request GET &quot;https://api-production.academiclabs.co/v1/search_results?keyword=aging&quot; -H &quot;Content-Type: application/json&quot;
+<div class="codehilite"><pre><span></span>curl --location --request GET &quot;https://sandbox.academiclabs.co/api/v1/function_titles?q=dev&amp;limit=5&quot; \
+  --header &quot;Content-Type: application/json&quot; \
+  --header &quot;Authorization: Bearer Your.API.Key-HERE&quot;
 </pre></div>
 
 
-<h2 id="responses">Responses<a class="headerlink" href="#responses" title="Permanent link">&para;</a></h2>
+<h3 id="responses">Responses<a class="headerlink" href="#responses" title="Permanent link">&para;</a></h3>
 <p><span class="response-type" >application/json</span></p>
 <h3 id="200"><span class="circle-green"></span>200<a class="headerlink" href="#200" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-  <span class="nt">&quot;keyword&quot;</span><span class="p">:</span> <span class="s2">&quot;aging&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="p">{</span>
-    <span class="nt">&quot;clinical_trials&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">2926</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/clinical_trials?keyword=aging&quot;</span>
+<div class="codehilite"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">64</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Developer&quot;</span>
     <span class="p">},</span>
-    <span class="nt">&quot;funding_calls&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">78</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/funding_calls?keyword=aging&quot;</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">65</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Development Technologist&quot;</span>
     <span class="p">},</span>
-    <span class="nt">&quot;organisations&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/organisations?keyword=aging&quot;</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">276</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Web Developer&quot;</span>
     <span class="p">},</span>
-    <span class="nt">&quot;projects&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">4525</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/projects?keyword=aging&quot;</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">245</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Software Developer&quot;</span>
     <span class="p">},</span>
-    <span class="nt">&quot;publications&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">1636733</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/publications?keyword=aging&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;research_topics&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">2770</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/research_topics?keyword=aging&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;researchers&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">35471</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/researchers?keyword=aging&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;services&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/services?keyword=aging&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;units&quot;</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">3907</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/units?keyword=aging&quot;</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Business Developer&quot;</span>
     <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span>
+<span class="p">]</span>
 </pre></div>
 
 
 <h3 id="400"><span class="circle-red"></span>400<a class="headerlink" href="#400" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span><span class="p">{</span>
-   <span class="nt">&quot;error_msg&quot;</span><span class="p">:</span> <span class="s2">&quot;failed to retrieve search results for keyword aging&quot;</span> 
+    <span class="nt">&quot;errors&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;Parameter q not found&quot;</span>
+    <span class="p">]</span>
 <span class="p">}</span>
 </pre></div>
                 
@@ -634,7 +716,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../getting_started/rate_limiting/" title="Rate Limiting" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../get_countries/" title="GET Countries" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -643,11 +725,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Rate Limiting
+                GET Countries
               </span>
             </div>
           </a>
         
+        
+          <a href="../get_genders/" title="GET Genders" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                GET Genders
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>

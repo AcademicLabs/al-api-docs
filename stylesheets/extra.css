@@ -183,12 +183,18 @@ h1, h2, h3, h4, h5 {
 
 .t-get {
     color: #3ece8f;
-    width: 45px;
+    width: 65px;
     display: inline-block;
 }
 
-.md-content .t-get {
-    width: 80px;
+.t-post {
+    color: #4c4cff;
+    width: 65px;
+    display: inline-block;
+}
+
+.md-content .t-get, .md-content .t-post {
+    width: 100px;
     font-weight: 600;
 }
 
@@ -217,7 +223,7 @@ h1, h2, h3, h4, h5 {
 
 .response-type {
     float: right;
-    margin-top: -50px;
+    margin-top: -62px;
     font-size: 1.4em !important; 
     color: #aebdcc;
     font-size: 0.9em;
