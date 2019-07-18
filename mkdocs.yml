@@ -29,8 +29,14 @@ nav:
         - Request: getting_started/request.md
         - Response: getting_started/response.md
         - Rate Limiting: getting_started/rate_limiting.md
-    - Search:
-        - GET Search Results: search/search_results.md
+    - API:
+        - GET Collaboration Interests: api/get_collaboration_interests.md
+        - GET Countries: api/get_countries.md
+        - GET Function Titles: api/get_function_titles.md
+        - GET Genders: api/get_genders.md
+        - GET Research Interests: api/get_research_interests.md
+        - POST Create Researchers: api/create_researchers.md
+        - GET Search Results: api/get_search_results.md
 
 
 # Customization
