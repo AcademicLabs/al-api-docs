@@ -10,7 +10,7 @@ You want to integrate AcademicLabs into your platform, awesome!
 First step is getting your access token. To do that send an email to <a href="mailto:sales@academiclabs.com" target="_blank">sales@academiclabs.com</a>. We will contact you as soon as possible.
 
 !!! info 
-    It is also strongly advised creating an account on <a href="app.academiclabs.com" target="_blank">app.academiclabs.com</a> before contacting us.
+    It is also strongly advised creating an account on <a href="https://app.academiclabs.com" target="_blank">app.academiclabs.com</a> before contacting us.
 
 
 ## API Key
