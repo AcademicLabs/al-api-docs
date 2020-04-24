@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Function Titles
 This endpoint allows you to retrieve a list of function titles for a given keyword
 
 ```
-https://{{ env }}.academiclabs.co/api/v1/function_titles
+https://{{ env }}.academiclabs.com/api/v1/function_titles
 ```
 
 ---
@@ -29,7 +29,7 @@ https://{{ env }}.academiclabs.co/api/v1/function_titles
 ## Example
 
 ```curl
-curl --location --request GET "https://sandbox.academiclabs.co/api/v1/function_titles?q=dev&limit=5" \
+curl --location --request GET "https://sandbox.academiclabs.com/api/v1/function_titles?q=dev&limit=5" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer Your.API.Key-HERE"
 ```

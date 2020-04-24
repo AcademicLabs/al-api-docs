@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Research Interests
 This endpoint allows you to retrieve a list of research interests for a given keyword
 
 ```
-https://{{ env }}.academiclabs.co/api/v1/research_interests
+https://{{ env }}.academiclabs.com/api/v1/research_interests
 ```
 
 ---
@@ -29,7 +29,7 @@ https://{{ env }}.academiclabs.co/api/v1/research_interests
 ## Example
 
 ```curl
-curl --location --request GET "https://sandbox.academiclabs.co/api/v1/research_interests?q=bel" \
+curl --location --request GET "https://sandbox.academiclabs.com/api/v1/research_interests?q=bel" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer Your.API.Key-HERE"
 ```

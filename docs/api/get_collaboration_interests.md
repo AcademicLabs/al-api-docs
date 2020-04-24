@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Collaboration Interests
 This endpoint allows you to retrieve a list of collaboration interests
 
 ```
-https://{{ env }}.academiclabs.co/api/v1/collaboration_interests
+https://{{ env }}.academiclabs.com/api/v1/collaboration_interests
 ```
 
 ---
@@ -21,7 +21,7 @@ https://{{ env }}.academiclabs.co/api/v1/collaboration_interests
 ## Example
 
 ```curl
-curl --location --request GET "https://sandbox.academiclabs.co/api/v1/collaboration_interests" \
+curl --location --request GET "https://sandbox.academiclabs.com/api/v1/collaboration_interests" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer Your.API.Key-HERE"
 ```

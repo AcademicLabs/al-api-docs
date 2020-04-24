@@ -6,7 +6,7 @@ title_string: <span class="t-get">GET</span> Genders
 This endpoint allows you to retrieve a list of genders
 
 ```
-https://{{ env }}.academiclabs.co/api/v1/genders
+https://{{ env }}.academiclabs.com/api/v1/genders
 ```
 
 ---
@@ -21,7 +21,7 @@ https://{{ env }}.academiclabs.co/api/v1/genders
 ## Example
 
 ```curl
-curl --location --request GET "https://sandbox.academiclabs.co/api/v1/genders" \
+curl --location --request GET "https://sandbox.academiclabs.com/api/v1/genders" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer Your.API.Key-HERE"
 ```
