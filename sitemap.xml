@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://apidocs.academiclabs.co/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/getting_started/request/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/getting_started/request/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/getting_started/response/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/getting_started/response/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/getting_started/rate_limiting/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/getting_started/rate_limiting/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_collaboration_interests/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_collaboration_interests/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_countries/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_countries/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_function_titles/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_function_titles/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_genders/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_genders/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_research_interests/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_research_interests/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/create_researchers/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/create_researchers/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://apidocs.academiclabs.co/api/get_search_results/</loc>
-     <lastmod>2019-07-18</lastmod>
+     <loc>https://apidocs.academiclabs.com/api/get_search_results/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

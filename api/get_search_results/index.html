@@ -13,7 +13,7 @@
         <meta name="description" content="An API for AcademicLabs">
       
       
-        <link rel="canonical" href="https://apidocs.academiclabs.co/api/get_search_results/">
+        <link rel="canonical" href="https://apidocs.academiclabs.com/api/get_search_results/">
       
       
         <meta name="author" content="AcademicLabs">
@@ -88,7 +88,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://apidocs.academiclabs.co/" title="Academiclabs" class="md-header-nav__button md-logo">
+        <a href="https://apidocs.academiclabs.com/" title="Academiclabs" class="md-header-nav__button md-logo">
           
             <img src="../../assets/img/a-white.svg" width="24" height="24">
           
@@ -159,7 +159,7 @@
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <!-- Site title -->
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://apidocs.academiclabs.co/"
+    <a href="https://apidocs.academiclabs.com/"
         title="Academiclabs" class="md-nav__button md-logo">
       
         <img src="../../assets/img/a-white.svg" width="48" height="48" />
@@ -605,7 +605,7 @@
                 
                 <h1 id="get-search_results"><span class="t-get">GET</span>  /search_results<a class="headerlink" href="#get-search_results" title="Permanent link">&para;</a></h1>
 <p>This endpoint allows you to retrieve counts and a link per category for a given keyword query.</p>
-<div class="codehilite"><pre><span></span>https://{{ env }}.academiclabs.co/api/v1/search_results?keyword=aging
+<div class="codehilite"><pre><span></span>https://{{ env }}.academiclabs.com/api/v1/search_results?keyword=aging
 </pre></div>
 
 
@@ -654,7 +654,7 @@
 </table>
 <hr />
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>curl --location --request GET &quot;https://sandbox.academiclabs.co/api/v1/search_results?keyword=aging&quot; -H &quot;Content-Type: application/json&quot;
+<div class="codehilite"><pre><span></span>curl --location --request GET &quot;https://sandbox.academiclabs.com/api/v1/search_results?keyword=aging&quot; -H &quot;Content-Type: application/json&quot;
 </pre></div>
 
 
@@ -666,39 +666,39 @@
   <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="p">{</span>
     <span class="nt">&quot;clinical_trials&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">2926</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/clinical_trials?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/clinical_trials?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;funding_calls&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">78</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/funding_calls?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/funding_calls?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;organisations&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/organisations?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/organisations?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;projects&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">4525</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/projects?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/projects?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;publications&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">1636733</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/publications?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/publications?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;research_topics&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">2770</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/research_topics?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/research_topics?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;researchers&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">35471</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/researchers?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/researchers?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;services&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/services?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/services?keyword=aging&quot;</span>
     <span class="p">},</span>
     <span class="nt">&quot;units&quot;</span><span class="p">:</span> <span class="p">{</span>
       <span class="nt">&quot;results&quot;</span><span class="p">:</span> <span class="mi">3907</span><span class="p">,</span>
-      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.co/search/units?keyword=aging&quot;</span>
+      <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://app.academiclabs.com/search/units?keyword=aging&quot;</span>
     <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}</span>
